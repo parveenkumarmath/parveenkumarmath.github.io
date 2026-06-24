@@ -1,5 +1,4 @@
 title: Parveen Kumar
 description: Research Scholar, IIT Ropar
-theme: null
 
-markdown: kramdown
+theme: jekyll-theme-minimal
