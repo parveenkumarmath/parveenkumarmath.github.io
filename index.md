@@ -1,12 +1,14 @@
 ---
----
 layout: default
-title: Parveen Kumar
+title: Home
 ---
 
-# Welcome
+# Parveen Kumar
 
-I am **Parveen Kumar**, a PhD scholar at IIT Ropar.
+Research Scholar, IIT Ropar
+
+---
+
 
 My research focuses on:
 - Inverse Problems
