@@ -3,16 +3,35 @@ layout: default
 ---
 
 <style>
-img {
-  width: 160px;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.text {
+  flex: 1;
+  min-width: 250px;
+}
+
+.photo {
+  flex: 1;
+  text-align: right;
+  min-width: 200px;
+}
+
+.photo img {
+  width: 180px;
   border-radius: 10px;
-  display: block;
-  margin: 20px auto;
+  display: inline-block;
 }
 </style>
 
+<div class="container">
 
-![Profile](parveen.jpeg)
+  <div class="text">
 
 Research Scholar, IIT Ropar  
 Inverse Problems & Partial Differential Equations
@@ -20,7 +39,7 @@ Inverse Problems & Partial Differential Equations
 ---
 
 ## About Me
-I am a PhD scholar at IIT Ropar working in the area of **Inverse Problems for Partial Differential Equations (PDEs)**.
+I am a PhD scholar at IIT Ropar working on **Inverse Problems for Partial Differential Equations (PDEs)**.
 
 ---
 
