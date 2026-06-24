@@ -31,22 +31,25 @@ layout: default
 
 <div class="container">
 
+  <!-- LEFT SIDE TEXT -->
   <div class="text">
 
+# Parveen Kumar
+
 Research Scholar, IIT Ropar  
-Inverse Problems & Partial Differential Equations
+Inverse Problems & Partial Differential Equations  
 
 ---
 
 ## About Me
-I am a PhD scholar at IIT Ropar working on **Inverse Problems for Partial Differential Equations (PDEs)**.
+I am a PhD scholar working on **Inverse Problems for Partial Differential Equations (PDEs)**.
 
 ---
 
-My research focuses on:
-- Inverse Problems
-- Partial Differential Equations
-- Coefficient Identification Problems
+## Research Interests
+- Inverse Problems  
+- Partial Differential Equations  
+- Coefficient Identification Problems  
 
 ---
 
@@ -57,15 +60,24 @@ My research focuses on:
 ---
 
 ## Conferences & Talks
-- AIP 2025, Rio de Janeiro
+- AIP 2025, Rio de Janeiro  
 
 ---
 
 ## Workshops
-- IIT Mandi (2023)
-- IISc Bengaluru (2023)
+- IIT Mandi (2023)  
+- IISc Bengaluru (2023)  
 
 ---
 
 ## Contact
-Email: PSWAMIFCA@GMAIL.COM
+📧 PSWAMIFCA@GMAIL.COM
+
+  </div>
+
+  <!-- RIGHT SIDE IMAGE -->
+  <div class="photo">
+    <img src="parveen.jpeg" alt="Parveen Kumar">
+  </div>
+
+</div>
