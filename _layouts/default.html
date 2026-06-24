@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }}</title>
 
+  <style>
+    body{
+      margin:0;
+      font-family:Arial,sans-serif;
+      line-height:1.6;
+    }
+
+    .hero{
+      background:#159957;
+      background:linear-gradient(120deg,#155799,#159957);
+      color:white;
+      padding:40px 10%;
+    }
+
+    .hero-content{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      flex-wrap:wrap;
+    }
+
+    .hero-text h1{
+      margin:0;
+      font-size:2.8rem;
+    }
+
+    .hero-text p{
+      margin-top:10px;
+      font-size:1.2rem;
+      opacity:.9;
+    }
+
+    .hero-photo img{
+      width:180px;
+      height:180px;
+      border-radius:50%;
+      object-fit:cover;
+      border:4px solid white;
+    }
+
+    .main-content{
+      max-width:1000px;
+      margin:auto;
+      padding:40px 20px;
+    }
+
+    @media(max-width:768px){
+      .hero-content{
+        flex-direction:column-reverse;
+        text-align:center;
+      }
+
+      .hero-photo{
+        margin-bottom:20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header class="hero">
+  <div class="hero-content">
+
+    <div class="hero-text">
+      <h1>Parveen Kumar</h1>
+      <p>Research Scholar, IIT Ropar | Inverse Problems & PDEs</p>
+    </div>
+
+    <div class="hero-photo">
+      <img src="/parveen.jpeg" alt="Parveen Kumar">
+    </div>
+
+  </div>
+</header>
+
+<main class="main-content">
+  {{ content }}
+</main>
+
+</body>
+</html>
