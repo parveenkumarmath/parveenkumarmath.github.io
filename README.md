@@ -1,2 +1,2 @@
-# parveenkumar
+# Parveen Kumar
 Personal academic website
