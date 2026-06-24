@@ -111,6 +111,113 @@ Affiliated with Maharshi Dayanand University (MDU), Rohtak, Haryana, India
 </ul>
 
 </section>
+<section id="conference">
+
+<h2>Conferences & Workshops</h2>
+
+<h3>Conference Talks</h3>
+
+<ul>
+
+<li>
+<strong>July 28 – August 01, 2025</strong><br>
+12th Applied Inverse Problems Conference (AIP 2025), Getulio Vargas Foundation (FGV EMAp), Rio de Janeiro, Brazil.<br>
+<strong>Talk:</strong> <em>Determining the Time-Dependent Convection Term and Matrix-Valued Potential in a Heat Equation from Partial Data.</em>
+</li>
+
+</ul>
+
+<h3>Workshops & Schools</h3>
+
+<ul>
+
+<li>
+<strong>June 26 – July 08, 2023</strong><br>
+NCM Instructional School and Training (IST) on Ordinary Differential Equations and Dynamical Systems, IIT Mandi.
+</li>
+
+<li>
+<strong>October 02 – October 07, 2023</strong><br>
+Advances in Differential Equations: Theory and Computation, Thapar Institute of Engineering and Technology, Patiala.
+</li>
+
+<li>
+<strong>December 04 – December 23, 2023</strong><br>
+AIS on Elliptic and Parabolic Partial Differential Equations, IISc Bengaluru.
+</li>
+
+<li>
+<strong>February 26 – March 02, 2024</strong><br>
+Multi-scale Analysis cum Conference on Differential Equations, IIT Ropar.
+</li>
+
+</ul>
+
+</section>
+
+
+
+<section id="experience">
+
+<h2>Research Experience</h2>
+
+<ul>
+
+<li>
+<strong>March 2022 – January 2023</strong><br>
+Junior Research Fellow (JRF)<br>
+Indian Institute of Technology Jammu, India<br><br>
+
+<strong>Project:</strong><br>
+<em>Inverse Coefficients and Shape Identification Problems for Partial Differential Equations</em><br>
+
+<strong>Principal Investigator:</strong>
+<a href="https://manmohanvashisth.github.io/" target="_blank">
+Dr. Manmohan Vashisth
+</a>
+</li>
+
+<br>
+
+<li>
+<strong>August 2019 – July 2020</strong><br>
+Master's Project<br>
+Visvesvaraya National Institute of Technology (VNIT), Nagpur, India<br><br>
+
+<strong>Master's Thesis:</strong><br>
+<em>Approximation of Bandlimited Functions by Trigonometric Polynomials</em><br>
+
+<strong>Advisor:</strong>
+Dr. A. Sathish Kumar
+</li>
+
+</ul>
+
+</section>
+
+
+
+<section id="achievements">
+
+<h2>Academic Achievements</h2>
+
+<ul>
+
+<li>
+Qualified <strong>IIT JAM 2018</strong> in Mathematics.
+</li>
+
+<li>
+Qualified <strong>CSIR-UGC NET (JRF)</strong> in Mathematical Sciences, June 2020.
+</li>
+
+<li>
+Qualified <strong>GATE-MA 2021</strong> (Graduate Aptitude Test in Engineering – Mathematics).
+</li>
+
+</ul>
+
+</section>
 
 <section id="contact">
 
