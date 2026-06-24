@@ -46,7 +46,7 @@ Indian Institute of Technology Ropar, 140001, Punjab, India.
 <ul>
 <li>
 <b>Parveen Kumar</b>, Gen Nakamura, Manmohan Vashisth,
-<i>Reconstruction of Time-Dependent Coefficients in Schrödinger Equation</i>
+<i>Reconstruction of Time-Dependent Coefficients in a dynamical Schrödinger Equation</i>
 (Preprint),
 <a href="https://arxiv.org/abs/2606.17023" target="_blank">
 arXiv
@@ -62,20 +62,52 @@ arXiv
 <h2>Education</h2>
 
 <ul>
-<li>PhD in Mathematics, IIT Ropar (2024–Present)</li>
-<li>PhD Coursework, IIT Jammu (2023–2024)</li>
-<li>M.Sc. Mathematics, VNIT Nagpur (2018–2020)</li>
-</ul>
 
-</section>
+<li>
+<strong>July 2024 – Present</strong><br>
+Doctor of Philosophy (Ph.D.) in Mathematics<br>
+Indian Institute of Technology (IIT) Ropar, India<br>
+(Transferred from IIT Jammu)<br>
+Advisor:
+<a href="https://manmohanvashisth.github.io/" target="_blank">
+Dr. Manmohan Vashisth
+</a>
+</li>
 
-<section id="conference">
+<br>
 
-<h2>Conferences & Talks</h2>
+<li>
+<strong>January 2023 – July 2024</strong><br>
+Doctor of Philosophy (Ph.D.) in Mathematics<br>
+Indian Institute of Technology (IIT) Jammu, India<br>
+Advisor:
+<a href="https://sites.google.com/view/tanmaysarkar/" target="_blank">
+Dr. Tanmay Sarkar
+</a>
+<br>
+Co-advisor:
+<a href="https://manmohanvashisth.github.io/" target="_blank">
+Dr. Manmohan Vashisth
+</a>
+</li>
 
-<ul>
-<li>AIP 2025, Rio de Janeiro</li>
-<li>Student Meet, IISER Bhopal</li>
+<br>
+
+<li>
+<strong>July 2018 – July 2020</strong><br>
+Master of Science (M.Sc.) in Mathematics<br>
+Visvesvaraya National Institute of Technology (VNIT), Nagpur, India
+</li>
+
+<br>
+
+<li>
+<strong>July 2014 – July 2017</strong><br>
+Bachelor of Science (B.Sc. Honours) in Mathematics<br>
+Pt. Neki Ram Sharma (NRS) Government College, Rohtak<br>
+Affiliated with Maharshi Dayanand University (MDU), Rohtak, Haryana, India
+</li>
+
 </ul>
 
 </section>
