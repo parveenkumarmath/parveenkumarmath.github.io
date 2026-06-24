@@ -3,12 +3,28 @@ layout: default
 title: Home
 ---
 
+<style>
+img {
+  width: 160px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+}
+</style>
+
 # Parveen Kumar
-![Profile Photo](/parveen.jpeg)
-Research Scholar, IIT Ropar
+
+![Parveen Kumar](parveen.jpeg)
+
+Research Scholar, IIT Ropar  
+Inverse Problems & Partial Differential Equations
 
 ---
 
+## About Me
+I am a PhD scholar at IIT Ropar working in the area of **Inverse Problems for Partial Differential Equations (PDEs)**.
+
+---
 
 My research focuses on:
 - Inverse Problems
