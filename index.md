@@ -1,23 +1,17 @@
 ---
-layout: default
-title: Parveen Kumar
+---
+layout: home
+title: Home
 ---
 
-# Parveen Kumar
+# Welcome
 
-## About
-I am a Research Scholar at **IIT Ropar** working under  
-**Dr. Manmohan Vashisth**.
+I am **Parveen Kumar**, a PhD scholar at IIT Ropar.
 
-My research focuses on **Inverse Problems for PDEs**.
-
----
-
-## Research Interests
-- Inverse Problems in PDEs  
-- Coefficient Identification  
-- Schrödinger Equations  
-- Heat Equations  
+My research focuses on:
+- Inverse Problems
+- Partial Differential Equations
+- Coefficient Identification Problems
 
 ---
 
