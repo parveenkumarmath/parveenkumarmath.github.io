@@ -1,11 +1,11 @@
 ---
-layout: default
+layout: page
 ---
 
 <style>
 img {
   width: 160px;
-  border-radius: 50%;
+  border-radius: 10px;
   display: block;
   margin: 20px auto;
 }
