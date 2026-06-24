@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Parveen Kumar
+<h1>Parveen Kumar</h1>
+<p>Test page working</p>
 ---
 
 ## About
