@@ -11,8 +11,8 @@ layout: default
 <h1>Parveen Kumar</h1>
 
 <p>
-Research Scholar, IIT Ropar<br>
-Inverse Problems & Partial Differential Equations
+Research Scholar<br>
+Indian Institute of Technology Ropar, 140001, Punjab, India.
 </p>
 
 </div>
@@ -48,7 +48,7 @@ Inverse Problems & Partial Differential Equations
 Parveen Kumar, Gen Nakamura, Manmohan Vashisth,
 Reconstruction of Time-Dependent Coefficients in Schrödinger Equation (Preprint).
 </li>
-</ol>
+(Preprint) [ <a href="[https://arxiv.org/abs/XXXX.XXXXX](https://arxiv.org/html/2606.17023v1)" target="_blank"> PDF </a> ] </li> </ol>
 
 </section>
 
