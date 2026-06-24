@@ -1,87 +1,145 @@
+---
+layout: default
+---
+
 <style>
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background: #0f4c81;
+  padding: 14px;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 18px;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 30px 0;
   flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
 .info {
   flex: 1;
+  min-width: 300px;
 }
 
 .info h1 {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .info p {
-  font-size: 1.2em;
+  font-size: 1.1em;
   color: #555;
 }
 
+.photo {
+  min-width: 220px;
+  text-align: center;
+}
+
 .photo img {
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   border-radius: 50%;
-  border: 3px solid #0f4c81;
+  border: 4px solid #0f4c81;
+}
+
+section {
+  margin-top: 40px;
+}
+
+h2 {
+  color: #0f4c81;
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 5px;
 }
 </style>
 
+<div class="navbar">
+  <a href="#about">About</a>
+  <a href="#research">Research</a>
+  <a href="#publications">Publications</a>
+  <a href="#education">Education</a>
+  <a href="#contact">Contact</a>
+</div>
+
 <div class="header">
 
-  <div class="info">
-    <h1>Parveen Kumar</h1>
-    <p>Research Scholar, IIT Ropar | Inverse Problems & PDEs</p>
-  </div>
+<div class="info">
+<h1>Parveen Kumar</h1>
 
-  <div class="photo">
-    <img src="parveen.jpeg" alt="Parveen Kumar">
-  </div>
+<p>
+Research Scholar, IIT Ropar<br>
+Inverse Problems & Partial Differential Equations
+</p>
+</div>
+
+<div class="photo">
+<img src="parveen.jpeg" alt="Parveen Kumar">
+</div>
 
 </div>
 
-<hr>
+<section id="about">
 
-<h2>About Me</h2>
+## About Me
 
-<p>
-I am a PhD scholar at IIT Ropar working on inverse problems for partial differential equations.
-</p>
+I am a PhD scholar in the Department of Mathematics at IIT Ropar. My research focuses on inverse problems for partial differential equations, coefficient identification, and related analytical techniques.
 
-<h2>Research Interests</h2>
+</section>
 
-<ul>
-  <li>Inverse Problems</li>
-  <li>Partial Differential Equations</li>
-  <li>Coefficient Identification Problems</li>
-</ul>
+<section id="research">
 
-<h2>Publications</h2>
+## Research Interests
 
-<ul>
-  <li>
-    Parveen Kumar, Gen Nakamura, Manmohan Vashisth,
-    <em>Reconstruction of time-dependent coefficients in Schrödinger equation</em> (Preprint)
-  </li>
-</ul>
+- Inverse Problems
+- Partial Differential Equations
+- Coefficient Identification Problems
+- Schrödinger Equations
+- Heat and Parabolic Equations
 
-<h2>Conferences & Talks</h2>
+</section>
 
-<ul>
-  <li>AIP 2025, Rio de Janeiro</li>
-</ul>
+<section id="publications">
 
-<h2>Workshops</h2>
+## Publications
 
-<ul>
-  <li>IIT Mandi (2023)</li>
-  <li>IISc Bengaluru (2023)</li>
-</ul>
+- Parveen Kumar, Gen Nakamura, Manmohan Vashisth,
+  *Reconstruction of time-dependent coefficients in Schrödinger equation* (Preprint)
 
-<h2>Contact</h2>
+</section>
 
-<p>
-📧 PSWAMIFCA@GMAIL.COM
-</p>
+<section id="education">
+
+## Education
+
+- **PhD in Mathematics**, IIT Ropar (2024–Present)
+- **PhD Coursework**, IIT Jammu (2023–2024)
+- **M.Sc. Mathematics**, VNIT Nagpur (2018–2020)
+
+</section>
+
+<section id="contact">
+
+## Contact
+
+**Email:** PSWAMIFCA@GMAIL.COM
+
+</section>
