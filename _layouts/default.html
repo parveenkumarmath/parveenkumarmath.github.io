@@ -2,102 +2,160 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{ page.title }}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
 body{
   margin:0;
   font-family: "Segoe UI", Arial, sans-serif;
-  display:flex;
   background:#fff;
   color:#111;
 }
 
-/* SIDEBAR */
-.sidebar{
-  width:300px;
-  height:100vh;
-  position:fixed;
-  background:#f7f7f7;
-  padding:40px 20px;
-  text-align:center;
-  border-right:1px solid #ddd;
+/* TOP NAVBAR */
+.navbar{
+  background:#0f4c81;
+  color:white;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 25px;
+  position:sticky;
+  top:0;
 }
 
-.sidebar img{
+.navbar h2{
+  margin:0;
+  font-size:18px;
+}
+
+/* DROPDOWN */
+.dropdown{
+  position:relative;
+  display:inline-block;
+}
+
+.dropbtn{
+  background:none;
+  color:white;
+  border:none;
+  font-size:15px;
+  cursor:pointer;
+  padding:8px 12px;
+}
+
+.dropdown-content{
+  display:none;
+  position:absolute;
+  background:white;
+  min-width:180px;
+  box-shadow:0px 5px 15px rgba(0,0,0,0.2);
+  z-index:1;
+}
+
+.dropdown-content a{
+  color:#111;
+  padding:10px 15px;
+  text-decoration:none;
+  display:block;
+}
+
+.dropdown-content a:hover{
+  background:#f2f2f2;
+}
+
+.dropdown:hover .dropdown-content{
+  display:block;
+}
+
+/* MAIN */
+.container{
+  max-width:900px;
+  margin:auto;
+  padding:40px 20px;
+}
+
+h1,h2,h3{
+  color:#0f4c81;
+}
+
+section{
+  margin-bottom:40px;
+  line-height:1.7;
+}
+
+.card{
+  background:#f7f9fc;
+  padding:20px;
+  border-radius:10px;
+  border:1px solid #eee;
+}
+
+/* PROFILE HEADER */
+.profile{
+  text-align:center;
+  margin-top:30px;
+}
+
+.profile img{
   width:140px;
   height:140px;
   border-radius:50%;
   object-fit:cover;
-  margin-bottom:10px;
-}
-
-.sidebar a{
-  display:block;
-  margin-top:10px;
-  color:#0f4c81;
-  text-decoration:none;
-}
-
-/* MAIN */
-.main{
-  margin-left:300px;
-  padding:50px;
-  max-width:900px;
-}
-
-h1,h2{
-  color:#0f4c81;
-  border-bottom:1px solid #eee;
-  padding-bottom:5px;
-}
-
-section{
-  margin-bottom:25px;
-  line-height:1.7;
-}
-
-.small{
-  color:#666;
-  font-size:14px;
-}
-
-/* RESPONSIVE */
-@media(max-width:768px){
-  body{flex-direction:column;}
-  .sidebar{
-    position:relative;
-    width:100%;
-    height:auto;
-  }
-  .main{
-    margin-left:0;
-    padding:20px;
-  }
+  border:3px solid #0f4c81;
 }
 </style>
 </head>
 
 <body>
 
-<!-- SIDEBAR -->
-<div class="sidebar">
-  <img src="parveen.jpeg">
+<!-- NAVBAR -->
+<div class="navbar">
+  <h2>Parveen Kumar</h2>
 
-  <h3>Parveen Kumar</h3>
-  <p>Research Scholar</p>
-  <p>IIT Ropar</p>
+  <div>
 
-  <a href="mailto:PSWAMIFCA@GMAIL.COM">Email</a>
-  <a href="https://scholar.google.com/citations?user=jWAKMYUAAAAJ&hl=en">Google Scholar</a>
-  <a href="https://orcid.org/0009-0004-3400-0292">ORCID</a>
-  <a href="https://www.researchgate.net/profile/Parveen-Kumar-108">ResearchGate</a>
+    <div class="dropdown">
+      <button class="dropbtn">About ▾</button>
+      <div class="dropdown-content">
+        <a href="#about">About Me</a>
+        <a href="#research">Research</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Academic ▾</button>
+      <div class="dropdown-content">
+        <a href="#publications">Publications</a>
+        <a href="#talks">Talks</a>
+        <a href="#workshops">Workshops</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">More ▾</button>
+      <div class="dropdown-content">
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+
+  </div>
 </div>
 
 <!-- CONTENT -->
-<div class="main">
+<div class="container">
+
+<div class="profile">
+  <img src="parveen.jpeg">
+  <h1>Parveen Kumar</h1>
+  <p>Research Scholar, IIT Ropar</p>
+</div>
+
 {{ content }}
+
 </div>
 
 </body>
