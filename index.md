@@ -8,18 +8,17 @@ layout: default
 
 <div class="info">
 
-# Parveen Kumar
+<h1>Parveen Kumar</h1>
 
-Research Scholar, IIT Ropar
-
+<p>
+Research Scholar, IIT Ropar<br>
 Inverse Problems & Partial Differential Equations
+</p>
 
 </div>
 
 <div class="photo">
-
 <img src="parveen.jpeg" alt="Parveen Kumar">
-
 </div>
 
 </div>
@@ -28,44 +27,60 @@ Inverse Problems & Partial Differential Equations
 
 <section id="research">
 
-## Research Interests
+<h2>Research Interests</h2>
 
-- Inverse Problems
-- Partial Differential Equations
-- Coefficient Identification Problems
-- Schrödinger Equations
+<ul>
+<li>Inverse Problems</li>
+<li>Partial Differential Equations</li>
+<li>Coefficient Identification Problems</li>
+<li>Schrödinger Equations</li>
+<li>Heat and Parabolic Equations</li>
+</ul>
 
 </section>
 
 <section id="publications">
 
-## Publications
+<h2>Publications</h2>
 
-1. Add your publications here.
+<ol>
+<li>
+Parveen Kumar, Gen Nakamura, Manmohan Vashisth,
+Reconstruction of Time-Dependent Coefficients in Schrödinger Equation (Preprint).
+</li>
+</ol>
 
 </section>
 
 <section id="education">
 
-## Education
+<h2>Education</h2>
 
-- PhD in Mathematics, IIT Ropar
-- M.Sc. Mathematics, VNIT Nagpur
+<ul>
+<li>PhD in Mathematics, IIT Ropar (2024–Present)</li>
+<li>PhD Coursework, IIT Jammu (2023–2024)</li>
+<li>M.Sc. Mathematics, VNIT Nagpur (2018–2020)</li>
+</ul>
 
 </section>
 
 <section id="conference">
 
-## Conferences & Talks
+<h2>Conferences & Talks</h2>
 
-- AIP 2025, Rio de Janeiro
+<ul>
+<li>AIP 2025, Rio de Janeiro</li>
+<li>Student Meet, IISER Bhopal</li>
+</ul>
 
 </section>
 
 <section id="contact">
 
-## Contact
+<h2>Contact</h2>
 
-Email: PSWAMIFCA@GMAIL.COM
+<p>
+Email: pswamifca@gmail.com
+</p>
 
 </section>
