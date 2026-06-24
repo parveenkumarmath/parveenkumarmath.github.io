@@ -188,7 +188,10 @@ Visvesvaraya National Institute of Technology (VNIT), Nagpur, India<br><br>
 <em>Approximation of Bandlimited Functions by Trigonometric Polynomials</em><br>
 
 <strong>Advisor:</strong>
+<a href="https://sites.google.com/view/drasathishkumar/" target="_blank">
 Dr. A. Sathish Kumar
+</a>
+
 </li>
 
 </ul>
