@@ -1,82 +1,87 @@
----
-layout: default
----
-
 <style>
-.top-section {
+.header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  align-items: flex-start;
+  margin: 30px 0;
   flex-wrap: wrap;
-  margin-top: 30px;
 }
 
-.bio {
-  flex: 2;
-  min-width: 300px;
-}
-
-.photo {
+.info {
   flex: 1;
-  text-align: right;
-  min-width: 220px;
+}
+
+.info h1 {
+  margin-bottom: 5px;
+}
+
+.info p {
+  font-size: 1.2em;
+  color: #555;
 }
 
 .photo img {
-  width: 220px;
-  border-radius: 8px;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #0f4c81;
 }
 </style>
 
-<div class="top-section">
+<div class="header">
 
-<div class="bio">
+  <div class="info">
+    <h1>Parveen Kumar</h1>
+    <p>Research Scholar, IIT Ropar | Inverse Problems & PDEs</p>
+  </div>
 
-# Parveen Kumar
-
-Research Scholar, IIT Ropar  
-Inverse Problems & Partial Differential Equations
-
-## About Me
-
-I am a PhD scholar at IIT Ropar working on **Inverse Problems for Partial Differential Equations (PDEs)**.
-
-## Research Interests
-
-- Inverse Problems
-- Partial Differential Equations
-- Coefficient Identification Problems
+  <div class="photo">
+    <img src="parveen.jpeg" alt="Parveen Kumar">
+  </div>
 
 </div>
 
-<div class="photo">
-<img src="parveen.jpeg" alt="Parveen Kumar">
-</div>
+<hr>
 
-</div>
+<h2>About Me</h2>
 
----
+<p>
+I am a PhD scholar at IIT Ropar working on inverse problems for partial differential equations.
+</p>
 
-## Publications
+<h2>Research Interests</h2>
 
-- Parveen Kumar, Gen Nakamura, Manmohan Vashisth  
-  *Reconstruction of time-dependent coefficients in Schrödinger equation* (Preprint)
+<ul>
+  <li>Inverse Problems</li>
+  <li>Partial Differential Equations</li>
+  <li>Coefficient Identification Problems</li>
+</ul>
 
----
+<h2>Publications</h2>
 
-## Conferences & Talks
+<ul>
+  <li>
+    Parveen Kumar, Gen Nakamura, Manmohan Vashisth,
+    <em>Reconstruction of time-dependent coefficients in Schrödinger equation</em> (Preprint)
+  </li>
+</ul>
 
-- AIP 2025, Rio de Janeiro
+<h2>Conferences & Talks</h2>
 
----
+<ul>
+  <li>AIP 2025, Rio de Janeiro</li>
+</ul>
 
-## Workshops
+<h2>Workshops</h2>
 
-- IIT Mandi (2023)
-- IISc Bengaluru (2023)
+<ul>
+  <li>IIT Mandi (2023)</li>
+  <li>IISc Bengaluru (2023)</li>
+</ul>
 
----
+<h2>Contact</h2>
 
-## Contact
-
+<p>
 📧 PSWAMIFCA@GMAIL.COM
+</p>
