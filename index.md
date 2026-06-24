@@ -43,12 +43,17 @@ Indian Institute of Technology Ropar, 140001, Punjab, India.
 
 <h2>Publications</h2>
 
-<ol>
+<ul>
 <li>
-Parveen Kumar, Gen Nakamura, Manmohan Vashisth,
-Reconstruction of Time-Dependent Coefficients in Schrödinger Equation (Preprint).
+<b>Parveen Kumar</b>, Gen Nakamura, Manmohan Vashisth,
+<i>Reconstruction of Time-Dependent Coefficients in Schrödinger Equation</i>
+(Preprint),
+<a href="https://arxiv.org/abs/2606.17023" target="_blank">
+arXiv
+</a>
 </li>
-(Preprint) [ <a href="[https://arxiv.org/abs/XXXX.XXXXX](https://arxiv.org/html/2606.17023v1)" target="_blank"> PDF </a> ] </li> </ol>
+</ul>
+
 
 </section>
 
