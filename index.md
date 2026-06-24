@@ -11,7 +11,6 @@ img {
 }
 </style>
 
-# Parveen Kumar
 
 ![Profile](parveen.jpeg)
 
