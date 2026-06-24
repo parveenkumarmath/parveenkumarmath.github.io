@@ -1,2 +1,2 @@
-# parveenkumar.github.io
+# parveenkumar
 Personal academic website
