@@ -4,7 +4,7 @@ title: Home
 ---
 
 # Parveen Kumar
-
+![Profile Photo](/parveen.jpeg)
 Research Scholar, IIT Ropar
 
 ---
