@@ -1,14 +1,6 @@
-title: "Parveen Kumar"
-name: "Parveen Kumar"
-description: "PhD Scholar, IIT Ropar | Inverse Problems & PDEs"
+title: Parveen Kumar
+description: Research Scholar, IIT Ropar | Inverse Problems & PDEs
 
-remote_theme: mmistakes/minimal-mistakes
+theme: jekyll-theme-cayman
 
-plugins:
-  - jekyll-include-cache
-
-author:
-  name: Parveen Kumar
-  avatar: "/assets/profile.jpg"
-  bio: "Research Scholar working on inverse problems in PDEs"
-  location: "IIT Ropar, India"
+show_downloads: false
