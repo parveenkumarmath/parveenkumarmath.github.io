@@ -6,28 +6,12 @@
 <title>{{ page.title }}</title>
 
 <style>
-:root{
-  --bg:#ffffff;
-  --text:#1a1a1a;
-  --muted:#666;
-  --accent:#0f4c81;
-  --border:#eaeaea;
-}
-
-body.dark{
-  --bg:#0f1115;
-  --text:#eaeaea;
-  --muted:#aaa;
-  --accent:#66b3ff;
-  --border:#222;
-}
-
 body{
   margin:0;
   font-family: "Segoe UI", Arial, sans-serif;
-  background:var(--bg);
-  color:var(--text);
   display:flex;
+  background:#fff;
+  color:#111;
 }
 
 /* SIDEBAR */
@@ -35,10 +19,10 @@ body{
   width:300px;
   height:100vh;
   position:fixed;
-  background:var(--bg);
-  border-right:1px solid var(--border);
+  background:#f7f7f7;
   padding:40px 20px;
   text-align:center;
+  border-right:1px solid #ddd;
 }
 
 .sidebar img{
@@ -46,39 +30,27 @@ body{
   height:140px;
   border-radius:50%;
   object-fit:cover;
-  border:2px solid var(--border);
-  margin-bottom:15px;
-}
-
-.sidebar h1{
-  font-size:20px;
-  margin:10px 0 5px;
-}
-
-.sidebar p{
-  margin:4px 0;
-  color:var(--muted);
-  font-size:14px;
+  margin-bottom:10px;
 }
 
 .sidebar a{
   display:block;
   margin-top:10px;
-  color:var(--accent);
+  color:#0f4c81;
   text-decoration:none;
-  font-size:14px;
 }
 
 /* MAIN */
 .main{
   margin-left:300px;
-  padding:50px 70px;
+  padding:50px;
   max-width:900px;
 }
 
 h1,h2{
-  color:var(--accent);
-  margin-top:40px;
+  color:#0f4c81;
+  border-bottom:1px solid #eee;
+  padding-bottom:5px;
 }
 
 section{
@@ -87,21 +59,8 @@ section{
 }
 
 .small{
-  color:var(--muted);
+  color:#666;
   font-size:14px;
-}
-
-/* DARK BUTTON */
-.toggle{
-  position:fixed;
-  top:20px;
-  right:20px;
-  background:var(--accent);
-  color:white;
-  border:none;
-  padding:8px 12px;
-  border-radius:6px;
-  cursor:pointer;
 }
 
 /* RESPONSIVE */
@@ -122,29 +81,21 @@ section{
 
 <body>
 
-<button class="toggle" onclick="document.body.classList.toggle('dark')">
-🌙
-</button>
-
 <!-- SIDEBAR -->
 <div class="sidebar">
+  <img src="parveen.jpeg">
 
-  <img src="parveen.jpeg" alt="profile">
-
-  <h1>Parveen Kumar</h1>
-
+  <h3>Parveen Kumar</h3>
   <p>Research Scholar</p>
   <p>IIT Ropar</p>
-  <p>Mathematics</p>
 
   <a href="mailto:PSWAMIFCA@GMAIL.COM">Email</a>
   <a href="https://scholar.google.com/citations?user=jWAKMYUAAAAJ&hl=en">Google Scholar</a>
   <a href="https://orcid.org/0009-0004-3400-0292">ORCID</a>
   <a href="https://www.researchgate.net/profile/Parveen-Kumar-108">ResearchGate</a>
-
 </div>
 
-<!-- MAIN -->
+<!-- CONTENT -->
 <div class="main">
 {{ content }}
 </div>
