@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Home
 ---
 
 <style>
@@ -14,7 +13,9 @@ img {
 
 # Parveen Kumar
 
-![Parveen Kumar](parveen.jpeg)
+![Profile](parveen.jpeg)
+
+Research Scholar, IIT Ropar
 
 Research Scholar, IIT Ropar  
 Inverse Problems & Partial Differential Equations
