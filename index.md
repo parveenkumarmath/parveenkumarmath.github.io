@@ -116,8 +116,60 @@ Affiliated with Maharshi Dayanand University (MDU), Rohtak, Haryana, India
 
 <h2>Contact</h2>
 
-<p>
-Email: pswamifca@gmail.com
-</p>
+<div style="line-height:1.9;">
+
+<strong>Parveen Kumar</strong><br>
+
+Research Scholar<br>
+
+Department of Mathematics<br>
+
+Indian Institute of Technology Ropar<br>
+
+Rupnagar, Punjab 140001, India
+
+<br><br>
+
+📧 <strong>Institute Email:</strong>
+<a href="mailto:parveen.24maz0013@iitrpr.ac.in">
+parveen.24maz0013@iitrpr.ac.in
+</a>
+
+<br>
+
+📧 <strong>Personal Email:</strong>
+<a href="mailto:pswamifca@gmail.com">
+pswamifca@gmail.com
+</a>
+
+<br><br>
+
+📍 <strong>Office:</strong>
+<a href="https://maps.google.com/?q=Department+of+Mathematics+IIT+Ropar" target="_blank">
+Department of Mathematics, IIT Ropar
+</a>
+
+<br><br>
+
+🎓 <strong>Google Scholar:</strong>
+<a href="https://scholar.google.com/citations?hl=en&user=jWAKMYUAAAAJ" target="_blank">
+View Profile
+</a>
+
+<br>
+
+📚 <strong>ResearchGate:</strong>
+<a href="https://www.researchgate.net/profile/Parveen-Kumar-108" target="_blank">
+View Profile
+</a>
+
+<br>
+
+🆔 <strong>ORCID:</strong>
+<a href="https://orcid.org/my-orcid?orcid=0009-0004-3400-0292" target="_blank">
+0009-0004-3400-0292
+</a>
+
+</div>
 
 </section>
