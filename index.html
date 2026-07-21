@@ -6,26 +6,22 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Parveen Kumar | Homepage</title>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-
+<title>Parveen Kumar | Mathematics</title>
 
 <link rel="stylesheet" href="style.css">
 
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 </head>
 
 
 <body>
+
+
+<header>
 
 
 <nav class="navbar">
@@ -36,9 +32,7 @@ Parveen Kumar
 </div>
 
 
-<ul class="nav-links">
-
-<li><a href="#home">Home</a></li>
+<ul>
 
 <li><a href="#about">About</a></li>
 
@@ -46,10 +40,9 @@ Parveen Kumar
 
 <li><a href="#publications">Publications</a></li>
 
-<li><a href="#education">Education</a></li>
+<li><a href="#talks">Talks</a></li>
 
 <li><a href="#contact">Contact</a></li>
-
 
 </ul>
 
@@ -58,11 +51,10 @@ Parveen Kumar
 
 
 
+<section class="hero">
 
-<section class="hero" id="home">
 
-
-<div class="hero-left">
+<div class="hero-text">
 
 
 <h1>
@@ -75,7 +67,7 @@ PhD Research Scholar
 </h2>
 
 
-<p class="inst">
+<p class="department">
 
 Department of Mathematics<br>
 
@@ -85,24 +77,21 @@ Indian Institute of Technology Ropar
 
 
 
-<p class="intro">
+<p class="description">
 
-I am a PhD Research Scholar working in the area of
-inverse problems for partial differential equations.
-My research focuses on coefficient reconstruction,
-Carleman estimates, heat equations, wave equations
-and related inverse problems.
+I am a PhD Research Scholar working under the supervision of
+Dr. Manmohan Vashisth. My research interests lie in inverse
+problems for partial differential equations, coefficient recovery,
+Carleman estimates and mathematical analysis.
 
 </p>
 
 
 
-<div class="hero-buttons">
+<div class="buttons">
 
 
-<a href="Parveen_CV.pdf"
-class="btn-primary"
-target="_blank">
+<a href="Parveen_CV.pdf" class="primary">
 
 Download CV
 
@@ -110,8 +99,7 @@ Download CV
 
 
 
-<a href="#publications"
-class="btn-outline">
+<a href="#publications" class="secondary">
 
 Publications
 
@@ -122,13 +110,13 @@ Publications
 
 
 
-<div class="social-large">
+<div class="links">
 
 
 <a href="https://scholar.google.com/citations?user=jWAKMYUAAAAJ&hl=en"
 target="_blank">
 
-<i class="fas fa-graduation-cap"></i>
+Google Scholar
 
 </a>
 
@@ -137,7 +125,7 @@ target="_blank">
 <a href="https://orcid.org/0009-0004-3400-0292"
 target="_blank">
 
-<i class="fa-brands fa-orcid"></i>
+ORCID
 
 </a>
 
@@ -146,7 +134,7 @@ target="_blank">
 <a href="https://www.researchgate.net/profile/Parveen-Kumar-108?ev=hdr_xprf"
 target="_blank">
 
-<i class="fab fa-researchgate"></i>
+ResearchGate
 
 </a>
 
@@ -154,7 +142,7 @@ target="_blank">
 
 <a href="mailto:pswamifca@gmail.com">
 
-<i class="fas fa-envelope"></i>
+Email
 
 </a>
 
@@ -162,29 +150,28 @@ target="_blank">
 </div>
 
 
-
 </div>
 
 
 
 
-<div class="hero-right">
+
+<div class="profile">
 
 
-<img src="Me.jpeg"
-alt="Parveen Kumar">
+<img src="Me.jpeg" alt="Parveen Kumar">
 
 
 </div>
+
 
 
 </section>
 
 
+</header>
 
-
-
-<section id="about" class="section">
+  <section id="about" class="section">
 
 
 <h2>
@@ -192,23 +179,27 @@ About
 </h2>
 
 
-
 <p>
 
-I am a PhD Research Scholar in the Department of Mathematics
-at Indian Institute of Technology Ropar under the supervision
-of Dr. Manmohan Vashisth.
+I am a PhD Research Scholar in the Department of Mathematics at
+Indian Institute of Technology Ropar. I am working under the
+supervision of Dr. Manmohan Vashisth.
 
-My research interests include inverse problems for
-partial differential equations, with emphasis on
-uniqueness and stability results using Carleman estimates.
+My research focuses on inverse problems for partial differential
+equations, particularly uniqueness and stability results for
+coefficient identification problems.
 
 </p>
 
 
 </section>
 
-  <section id="research" class="section">
+
+
+
+
+
+<section id="research" class="section">
 
 
 <h2>
@@ -216,22 +207,25 @@ Research Interests
 </h2>
 
 
-<div class="research-grid">
 
+<div class="research-grid">
 
 
 <div class="research-card">
 
-<i class="fa-solid fa-wave-square"></i>
 
 <h3>
 Inverse Problems
 </h3>
 
+
 <p>
-Coefficient identification and reconstruction
-from boundary measurements for PDEs.
+
+Recovery of unknown coefficients and parameters
+from boundary measurements.
+
 </p>
+
 
 </div>
 
@@ -240,16 +234,19 @@ from boundary measurements for PDEs.
 
 <div class="research-card">
 
-<i class="fa-solid fa-square-root-variable"></i>
 
 <h3>
 Partial Differential Equations
 </h3>
 
+
 <p>
-Heat equations, wave equations,
-Schrödinger equations and parabolic systems.
+
+Analysis of heat equations, wave equations,
+Schrödinger equations and related PDE systems.
+
 </p>
+
 
 </div>
 
@@ -259,16 +256,19 @@ Schrödinger equations and parabolic systems.
 
 <div class="research-card">
 
-<i class="fa-solid fa-chart-line"></i>
 
 <h3>
 Carleman Estimates
 </h3>
 
+
 <p>
-Uniqueness and stability analysis
-in inverse problems.
+
+Weighted estimates used for uniqueness and
+stability analysis in inverse problems.
+
 </p>
+
 
 </div>
 
@@ -278,6 +278,7 @@ in inverse problems.
 
 
 </section>
+
 
 
 
@@ -293,29 +294,37 @@ Publications & Preprints
 
 
 
-<div class="publication-item">
+
+<div class="paper">
 
 
 <h3>
+
 Reconstruction of Time-Dependent Coefficients
 in a Semilinear Dynamical Schrödinger Equation
+
 </h3>
 
 
 <p>
+
 Parveen Kumar, Gen Nakamura, Manmohan Vashisth
+
 </p>
 
 
 <p>
+
 Preprint, arXiv:2606.17023 (2026)
+
 </p>
+
 
 
 <a href="https://arxiv.org/abs/2606.17023"
 target="_blank">
 
-View on arXiv
+View arXiv
 
 </a>
 
@@ -326,19 +335,24 @@ View on arXiv
 
 
 
-<div class="publication-item">
+
+<div class="paper">
 
 
 <h3>
+
 Determining the Time-Dependent Convection Term
 and Matrix-Valued Potential in a Heat Equation
 from Partial Data
+
 </h3>
 
 
 <p>
+
 Research work on inverse problems for
-parabolic systems.
+parabolic equations.
+
 </p>
 
 
@@ -348,27 +362,28 @@ parabolic systems.
 
 
 
-<div class="publication-item">
+
+
+<div class="paper">
 
 
 <h3>
+
 Direct and Inverse Problem for Bi-Wave Equation
 with Time-Dependent Coefficients
+
 </h3>
 
 
 <p>
+
 Research work in hyperbolic inverse problems.
+
 </p>
 
 
 </div>
-
-
-
 </section>
-
-
 
 
 
@@ -383,8 +398,7 @@ Education
 
 
 
-
-<div class="education-box">
+<div class="timeline-box">
 
 
 <h3>
@@ -393,13 +407,18 @@ Indian Institute of Technology Ropar
 
 
 <p>
+
 PhD in Mathematics<br>
+
 2024 - Present
+
 </p>
 
 
 <p>
+
 Supervisor: Dr. Manmohan Vashisth
+
 </p>
 
 
@@ -409,7 +428,7 @@ Supervisor: Dr. Manmohan Vashisth
 
 
 
-<div class="education-box">
+<div class="timeline-box">
 
 
 <h3>
@@ -418,8 +437,11 @@ Indian Institute of Technology Jammu
 
 
 <p>
+
 PhD in Mathematics<br>
+
 2023 - 2024
+
 </p>
 
 
@@ -444,8 +466,7 @@ Talks & Events
 
 
 
-
-<div class="publication-item">
+<div class="paper">
 
 
 <h3>
@@ -454,17 +475,19 @@ Talks & Events
 
 
 <p>
+
 Rio de Janeiro, Brazil<br>
+
 July 28 - August 1, 2025
+
 </p>
 
 
 <p>
 
 Talk:
-"Determining the time-dependent convection term
-and matrix-valued potential in a heat equation
-from partial data"
+Determining the time-dependent convection term and
+matrix-valued potential in a heat equation from partial data.
 
 </p>
 
@@ -475,7 +498,7 @@ from partial data"
 
 
 
-<div class="publication-item">
+<div class="paper">
 
 
 <h3>
@@ -484,8 +507,11 @@ Summer School on Inverse Problems
 
 
 <p>
+
 TIFR CAM, Bengaluru<br>
+
 2026
+
 </p>
 
 
@@ -495,7 +521,13 @@ TIFR CAM, Bengaluru<br>
 
 </section>
 
-  <section id="contact" class="section">
+
+
+
+
+
+
+<section id="contact" class="section">
 
 
 <h2>
@@ -504,36 +536,27 @@ Contact
 
 
 
-<div class="contact-box">
+<div class="contact">
 
 
 <p>
-<i class="fa-solid fa-envelope"></i>
-
+Email:
 <a href="mailto:pswamifca@gmail.com">
-
 pswamifca@gmail.com
-
 </a>
-
 </p>
 
 
-
 <p>
 
-<i class="fa-solid fa-building"></i>
+Department of Mathematics<br>
 
-Department of Mathematics,
 Indian Institute of Technology Ropar
 
 </p>
 
 
-
 <p>
-
-<i class="fa-solid fa-user-tie"></i>
 
 Supervisor:
 Dr. Manmohan Vashisth
@@ -541,70 +564,51 @@ Dr. Manmohan Vashisth
 </p>
 
 
-
 <p>
-
-<i class="fa-solid fa-location-dot"></i>
 
 Rupnagar, Punjab, India
 
 </p>
 
 
-
 </div>
 
 
 
 
-<div class="social-large">
+<div class="links bottom">
 
 
 <a href="https://scholar.google.com/citations?user=jWAKMYUAAAAJ&hl=en"
-target="_blank"
-title="Google Scholar">
+target="_blank">
 
-<i class="fas fa-graduation-cap"></i>
+Google Scholar
 
 </a>
-
 
 
 <a href="https://orcid.org/0009-0004-3400-0292"
-target="_blank"
-title="ORCID">
+target="_blank">
 
-<i class="fa-brands fa-orcid"></i>
+ORCID
 
 </a>
-
-
 
 
 <a href="https://www.researchgate.net/profile/Parveen-Kumar-108?ev=hdr_xprf"
-target="_blank"
-title="ResearchGate">
+target="_blank">
 
-<i class="fab fa-researchgate"></i>
-
-</a>
-
-
-
-
-<a href="mailto:pswamifca@gmail.com"
-title="Email">
-
-<i class="fas fa-envelope"></i>
+ResearchGate
 
 </a>
-
 
 
 </div>
 
 
+
 </section>
+
 
 
 
@@ -619,12 +623,11 @@ title="Email">
 
 
 <p>
-Department of Mathematics | Indian Institute of Technology Ropar
+Department of Mathematics | IIT Ropar
 </p>
 
 
 </footer>
-
 
 
 
