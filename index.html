@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
 <meta charset="UTF-8">
@@ -9,10 +8,9 @@
 <title>Parveen Kumar | Homepage</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
-
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
@@ -23,101 +21,142 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
 
 <body>
 
-<div class="background"></div>
-
-<header>
+<!-- ================= NAVBAR ================= -->
 
 <nav>
 
 <div class="logo">
-
-PK
-
+Parveen Kumar
 </div>
 
 <ul>
 
-<li><a href="#">Home</a></li>
+<li><a href="#home">Home</a></li>
 
-<li><a href="#">Research</a></li>
+<li><a href="#about">About</a></li>
 
-<li><a href="#">Publications</a></li>
+<li><a href="#research">Research</a></li>
 
-<li><a href="#">CV</a></li>
+<li><a href="#publications">Publications</a></li>
 
-<li><a href="#">Contact</a></li>
+<li><a href="#education">Education</a></li>
+
+<li><a href="#contact">Contact</a></li>
 
 </ul>
 
 </nav>
 
-<section class="hero">
+<!-- ================= HERO ================= -->
 
-<div class="left">
+<section class="hero" id="home">
 
-<p class="tag">
+<div class="hero-text">
 
-PhD Research Scholar
+<h1>Parveen Kumar</h1>
 
-</p>
-
-<h1>
-
-Parveen
-
-<span>Kumar</span>
-
-</h1>
-
-<h3>
-
-Department of Mathematics
-
-</h3>
+<h3>PhD Research Scholar</h3>
 
 <h4>
-
+Department of Mathematics<br>
 Indian Institute of Technology Ropar
-
 </h4>
 
-<p class="desc">
+<p>
 
-Research interests include
-
-Inverse Problems,
-
-Partial Differential Equations,
-
-Carleman Estimates,
-
-Heat & Wave Equations.
+My research focuses on inverse problems for partial differential equations,
+particularly coefficient recovery in heat and wave equations using Carleman
+estimates and related analytical techniques.
 
 </p>
 
 <div class="buttons">
 
-<a href="Parveen_CV.pdf">
-
+<a href="Parveen_CV.pdf" class="primary">
 Download CV
-
 </a>
 
-<a href="#">
-
+<a href="#publications" class="secondary">
 Publications
-
 </a>
 
 </div>
 
 </div>
 
-<div class="right">
+<div class="hero-image">
 
-<div class="photo">
+<img src="Me.jpeg" alt="Parveen Kumar">
 
-<img src="Me.jpeg">
+</div>
+
+</section>
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="section">
+
+<h2>About</h2>
+
+<p>
+
+I am a PhD Research Scholar in the Department of Mathematics at IIT Ropar,
+working under the supervision of Dr. Manmohan Vashisth.
+My research lies in inverse problems for partial differential equations,
+including heat equations, wave equations,
+Carleman estimates, and coefficient reconstruction.
+
+</p>
+
+</section>
+
+<!-- ================= RESEARCH ================= -->
+
+<section id="research" class="section">
+
+<h2>Research Interests</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<i class="fa-solid fa-wave-square"></i>
+
+<h3>Inverse Problems</h3>
+
+<p>
+Recovery of coefficients from partial boundary measurements.
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-square-root-variable"></i>
+
+<h3>Partial Differential Equations</h3>
+
+<p>
+
+Heat equations, wave equations,
+Schrödinger equations and related systems.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-chart-line"></i>
+
+<h3>Carleman Estimates</h3>
+
+<p>
+
+Uniqueness and stability results
+using weighted estimates.
+
+</p>
 
 </div>
 
@@ -125,4 +164,131 @@ Publications
 
 </section>
 
-</header>
+<!-- ================= PUBLICATIONS ================= -->
+
+<section id="publications" class="section">
+
+<h2>Selected Publications</h2>
+
+<div class="publication">
+
+<h3>
+
+Reconstruction of Time-Dependent Coefficients
+in a Semilinear Dynamical Schrödinger Equation
+
+</h3>
+
+<p>
+
+Preprint,
+arXiv:2606.17023
+
+</p>
+
+</div>
+
+<div class="publication">
+
+<h3>
+
+Determining Time-Dependent Convection Term and
+Matrix-Valued Potential in Heat Equation
+
+</h3>
+
+<p>
+
+Work in Progress
+
+</p>
+
+</div>
+
+</section>
+
+<!-- ================= EDUCATION ================= -->
+
+<section id="education" class="section">
+
+<h2>Education</h2>
+
+<div class="timeline">
+
+<div>
+
+<h3>Indian Institute of Technology Ropar</h3>
+
+<p>
+
+PhD in Mathematics
+
+</p>
+
+</div>
+
+<div>
+
+<h3>Indian Institute of Technology Jammu</h3>
+
+<p>
+
+PhD Coursework
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="section">
+
+<h2>Contact</h2>
+
+<p>
+
+<i class="fa-solid fa-envelope"></i>
+
+your_email@iitrpr.ac.in
+
+</p>
+
+<p>
+
+<i class="fa-solid fa-location-dot"></i>
+
+Department of Mathematics,
+IIT Ropar,
+Punjab,
+India
+
+</p>
+
+<div class="social">
+
+<a href="#"><i class="fab fa-google"></i></a>
+
+<a href="#"><i class="fab fa-github"></i></a>
+
+<a href="#"><i class="fab fa-linkedin"></i></a>
+
+<a href="#"><i class="fas fa-graduation-cap"></i></a>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Parveen Kumar |
+Department of Mathematics |
+IIT Ropar
+
+</footer>
+
+</body>
+</html>
