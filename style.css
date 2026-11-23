@@ -1103,3 +1103,40 @@ img {
 @media (prefers-reduced-motion: reduce) {
   .js .reveal { opacity: 1; transform: none; }
 }
+
+/* ===== Readability and full-width contact improvements ===== */
+body { font-size: 17px; line-height: 1.75; }
+.eyebrow, .section-kicker { font-size: 12px; }
+.hero-socials a { font-size: 14px; }
+.photo-caption, .hero-note, .strip-inner { font-size: 13px; }
+.section-description, .about-detail, .research-card p,
+.timeline-content p, .education-card p, .event-info p,
+.contact-copy > p:not(.section-kicker) { font-size: 16px; }
+.card-number, .card-foot, .timeline-date, .event-date,
+.detail-label, .education-period { font-size: 12px !important; }
+.publication-type { font-size: 12px; }
+.publication-meta { font-size: 16px; }
+.editorial-note, .footer-inner p { font-size: 13px; }
+.contact-panel { width: 100%; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: 48px; padding: 48px; border-radius: 10px; }
+.contact-copy > p:not(.section-kicker) { max-width: 540px; }
+.contact-details { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
+.contact-details p, .contact-details a { font-size: 16px; line-height: 1.65; }
+.contact-profiles a { font-size: 15px; font-weight: 600; color: var(--blue); }
+#contact { background: var(--wash); }
+#contact .contact-panel { background: var(--paper); }
+@media (max-width: 1000px) {
+  .nav-links a { font-size: 14px; }
+  .contact-panel { gap: 30px; padding: 35px; }
+}
+@media (max-width: 780px) {
+  .contact-panel { grid-template-columns: 1fr; gap: 30px; padding: 30px; }
+  .contact-details { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 520px) {
+  .hero-intro { font-size: 16px; }
+  .publication h3 { font-size: 21px; }
+  .contact-panel { padding: 25px 20px; }
+  .contact-details { grid-template-columns: 1fr; gap: 22px; }
+  .contact-details p, .contact-details a { font-size: 16px; }
+  .hero-note { right: 0; }
+}
