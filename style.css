@@ -559,7 +559,7 @@ img {
   flex-direction: column;
   gap: 7px;
   color: var(--muted);
-  font-size: 10px;
+  font-size: 20px;
 }
 
 .publication-type {
@@ -567,7 +567,7 @@ img {
   padding: 3px 8px;
   background: var(--blue-pale);
   color: var(--blue);
-  font-size: 9px;
+  font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.5px;
   text-transform: uppercase;
@@ -577,19 +577,19 @@ img {
   max-width: 800px;
   margin-bottom: 9px;
   font-family: var(--serif);
-  font-size: 17px;
+  font-size: 22px;
   line-height: 1.65;
 }
 
 .authors {
   color: var(--ink-soft);
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .publication-note {
   margin-top: 5px;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 15px;
 }
 
 .publication-links {
@@ -600,7 +600,7 @@ img {
 
 .publication-links a {
   color: var(--blue);
-  font-size: 11px;
+  font-size: 15px;
   font-weight: 700;
 }
 
