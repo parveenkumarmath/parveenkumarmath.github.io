@@ -1140,3 +1140,49 @@ body { font-size: 17px; line-height: 1.75; }
   .contact-details p, .contact-details a { font-size: 16px; }
   .hero-note { right: 0; }
 }
+
+
+/* ===== Consistent typography and spacing refinements ===== */
+:root { --content: 1160px; }
+body { font-size: 16px; line-height: 1.7; }
+.section { padding-block: 82px; }
+.section-kicker, .eyebrow { font-size: 12px; letter-spacing: 1.5px; }
+.section-description, .about-detail, .about-detail p, .about-lead,
+.research-card p, .timeline-content p, .education-card p, .event-info p,
+.contact-copy > p:not(.section-kicker) { font-size: 16px; line-height: 1.75; }
+.section-heading h2, .contact-copy h2 { font-size: clamp(29px, 3vw, 39px); }
+.hero-intro, .hero-affiliation { font-size: 16px; }
+.hero-socials a, .photo-caption, .strip-inner, .card-foot,
+.timeline-date, .education-period, .event-date, .event-date span,
+.detail-label, .footer-inner p { font-size: 13px !important; }
+.research-card h3, .timeline-content h3, .education-card h3,
+.event-info h3 { font-size: 19px; line-height: 1.45; }
+.card-number { font-size: 13px; }
+.publication { grid-template-columns: 120px minmax(0,1fr); gap: 28px; align-items: start; }
+.publication-content { min-width: 0; }
+.publication-meta { font-size: 15px; }
+.publication-type { font-size: 12px; }
+.publication h3 { font-size: 20px; line-height: 1.5; }
+.authors, .publication-note, .publication-links a { font-size: 16px; }
+.education-card, .research-card { height: 100%; }
+.contact-panel { width: 100%; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: 44px; padding: clamp(28px, 4vw, 55px); }
+.contact-details { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 28px; }
+.contact-details p, .contact-details a { font-size: 16px; line-height: 1.75; }
+.contact-profiles a { font-size: 15px; }
+.hero-note { right: 0; }
+@media (max-width: 780px) {
+ .section { padding-block: 64px; }
+ .contact-panel { grid-template-columns: 1fr; gap: 28px; }
+ .publication { grid-template-columns: 100px minmax(0,1fr); gap: 18px; }
+ .hero-intro { font-size: 16px; }
+}
+@media (max-width: 520px) {
+ .section { padding-block: 52px; }
+ .publication { grid-template-columns: 1fr; gap: 10px; }
+ .publication-meta { flex-direction: row; align-items: center; }
+ .publication h3 { font-size: 19px; }
+ .contact-details { grid-template-columns: 1fr; }
+ .contact-panel { padding: 26px 20px; }
+ .hero-note { right: 0; }
+ .hero-intro { font-size: 16px; }
+}
