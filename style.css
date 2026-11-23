@@ -34,8 +34,8 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: var(--sans);
-  font-size: 15px;
-  line-height: 1.8;
+  font-size: 17px;
+  line-height: 1.85;
   -webkit-font-smoothing: antialiased;
 }
 
