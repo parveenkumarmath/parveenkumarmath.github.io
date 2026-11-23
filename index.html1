@@ -1,0 +1,349 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Academic profile of Parveen Kumar, PhD Research Scholar in Mathematics at IIT Ropar.">
+  <title>Parveen Kumar | Mathematics</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="logo" href="#home">PK<span>.</span></a>
+
+      <button class="menu-toggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="navigation">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="navigation">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#talks">Talks</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- HOME -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">ACADEMIC PROFILE</p>
+
+        <h1>Parveen Kumar</h1>
+
+        <h2>PhD Research Scholar in Mathematics</h2>
+
+        <p class="hero-description">
+          Department of Mathematics<br>
+          Indian Institute of Technology Ropar, India
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#research" class="btn btn-primary">Explore Research</a>
+          <a href="Parveen_CV.pdf" class="btn btn-outline" target="_blank">Download CV</a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://scholar.google.com/citations?user=jWAKMYUAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="https://orcid.org/0009-0004-3400-0292" target="_blank" rel="noopener">ORCID</a>
+          <a href="https://www.researchgate.net/profile/Parveen-Kumar-108" target="_blank" rel="noopener">ResearchGate</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="Me.jpeg" alt="Portrait of Parveen Kumar">
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">INTRODUCTION</p>
+        <h2>About Me</h2>
+      </div>
+
+      <div class="about-content">
+        <p>
+          I am a PhD Research Scholar in the Department of Mathematics
+          at the Indian Institute of Technology Ropar, India, working
+          under the supervision of
+          <a href="https://manmohanvashisth.github.io/" target="_blank" rel="noopener">
+            Dr. Manmohan Vashisth
+          </a>.
+        </p>
+
+        <p>
+          My research interests lie in inverse problems for partial
+          differential equations, particularly in the uniqueness,
+          reconstruction, and stability of time-dependent coefficients.
+          I am interested in analytical techniques such as Carleman
+          estimates, complex geometrical optics solutions, and
+          microlocal analysis.
+        </p>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section class="section section-alt" id="research">
+      <div class="section-heading">
+        <p class="eyebrow">ACADEMIC INTERESTS</p>
+        <h2>Research Interests</h2>
+      </div>
+
+      <div class="research-grid">
+        <article class="research-card">
+          <h3>Inverse Problems</h3>
+          <p>
+            Uniqueness, reconstruction, and stability in inverse
+            boundary value problems for partial differential equations.
+          </p>
+        </article>
+
+        <article class="research-card">
+          <h3>Partial Differential Equations</h3>
+          <p>
+            Schrödinger, heat, wave, and Klein–Gordon equations,
+            including their coupled and nonlinear forms.
+          </p>
+        </article>
+
+        <article class="research-card">
+          <h3>Analytical Methods</h3>
+          <p>
+            Carleman estimates, complex geometrical optics solutions,
+            geometric optics solutions, and microlocal analysis.
+          </p>
+        </article>
+
+        <article class="research-card">
+          <h3>Coefficient Identification</h3>
+          <p>
+            Determination of time-dependent potentials, convection
+            coefficients, and nonlinear terms from boundary measurements.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section class="section" id="publications">
+      <div class="section-heading">
+        <p class="eyebrow">RESEARCH OUTPUT</p>
+        <h2>Publications & Preprints</h2>
+      </div>
+
+      <div class="publication-list">
+
+        <article class="publication">
+          <span class="publication-type">Preprint</span>
+          <h3>Reconstruction of time-dependent coefficients in a semilinear dynamical Schrödinger equation</h3>
+          <p>Parveen Kumar, Gen Nakamura, and Manmohan Vashisth.</p>
+          <a href="https://arxiv.org/abs/2606.17023" target="_blank" rel="noopener">arXiv:2606.17023</a>
+        </article>
+
+        <article class="publication">
+          <span class="publication-type">Preprint</span>
+          <h3>Stable determination of time-dependent coefficients in a reaction-diffusion-convection system</h3>
+          <p>Rahul Bhardwaj and Parveen Kumar.</p>
+          <a href="https://arxiv.org/abs/2608.07190" target="_blank" rel="noopener">arXiv:2608.07190</a>
+        </article>
+
+        <article class="publication">
+          <span class="publication-type">Preprint</span>
+          <h3>A partial data coefficient identification inverse problem for a semilinear damped wave operator</h3>
+          <p>Mandeep Kumar, Parveen Kumar, and Manmohan Vashisth.</p>
+          <a href="https://arxiv.org/abs/2608.29918" target="_blank" rel="noopener">arXiv:2608.29918</a>
+        </article>
+
+        <article class="publication">
+          <span class="publication-type">Preprint</span>
+          <h3>Stability in the determination of the coefficients for coupled relativistic Schrödinger system</h3>
+          <p>Nitesh Kumar, Parveen Kumar, and Tanmay Sarkar.</p>
+          <a href="https://arxiv.org/abs/2610.15013" target="_blank" rel="noopener">arXiv:2610.15013</a>
+        </article>
+
+        <article class="publication">
+          <span class="publication-type">Preprint</span>
+          <h3>Inverse boundary value problems for a coupled semilinear Klein–Gordon system</h3>
+          <p>Parveen Kumar, Soumen Senapati, and Manmohan Vashisth.</p>
+          <a href="https://arxiv.org/abs/2611.23133" target="_blank" rel="noopener">arXiv:2611.23133</a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section section-alt" id="experience">
+      <div class="section-heading">
+        <p class="eyebrow">ACADEMIC BACKGROUND</p>
+        <h2>Experience</h2>
+      </div>
+
+      <div class="timeline">
+
+        <article class="timeline-item">
+          <span class="date">May – June 2025</span>
+          <h3>Teaching Assistant</h3>
+          <p>AI School on Analysis and PDEs</p>
+          <p>Indian Institute of Technology Ropar</p>
+        </article>
+
+        <article class="timeline-item">
+          <span class="date">March 2022 – January 2023</span>
+          <h3>Junior Research Fellow</h3>
+          <p>Indian Institute of Technology Jammu</p>
+          <p>Research on inverse coefficient and shape identification problems for PDEs.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section" id="education">
+      <div class="section-heading">
+        <p class="eyebrow">QUALIFICATIONS</p>
+        <h2>Education</h2>
+      </div>
+
+      <div class="education-grid">
+
+        <article class="education-card">
+          <span class="date">July 2024 – Present</span>
+          <h3>PhD in Mathematics</h3>
+          <p>Indian Institute of Technology Ropar</p>
+          <p>Supervisor: Dr. Manmohan Vashisth</p>
+        </article>
+
+        <article class="education-card">
+          <span class="date">January 2023 – July 2024</span>
+          <h3>PhD in Mathematics</h3>
+          <p>Indian Institute of Technology Jammu</p>
+        </article>
+
+        <article class="education-card">
+          <span class="date">July 2018 – July 2020</span>
+          <h3>M.Sc. Mathematics</h3>
+          <p>Visvesvaraya National Institute of Technology, Nagpur</p>
+        </article>
+
+        <article class="education-card">
+          <span class="date">July 2014 – July 2017</span>
+          <h3>B.Sc. (Hons.) Mathematics</h3>
+          <p>Pt. Neki Ram Sharma Government College, Rohtak</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- TALKS -->
+    <section class="section section-alt" id="talks">
+      <div class="section-heading">
+        <p class="eyebrow">ACADEMIC ACTIVITIES</p>
+        <h2>Talks & Events</h2>
+      </div>
+
+      <div class="event-list">
+
+        <article class="event">
+          <span class="date">September 18–20, 2026</span>
+          <h3>Annual Inverse Meet 2026</h3>
+          <p>Indian Institute of Technology Bombay</p>
+          <p>Talk: Semilinear dynamical Schrödinger equation.</p>
+        </article>
+
+        <article class="event">
+          <span class="date">July 6–17, 2026</span>
+          <h3>Summer School on Inverse Problems</h3>
+          <p>Tata Institute of Fundamental Research, CAM</p>
+        </article>
+
+        <article class="event">
+          <span class="date">July 28 – August 1, 2025</span>
+          <h3>12th Applied Inverse Problems Conference</h3>
+          <p>FGV EMAp, Rio de Janeiro, Brazil</p>
+          <p>Talk: Determining the time-dependent convection term and matrix-valued potential in a heat equation from partial data.</p>
+        </article>
+
+        <article class="event">
+          <span class="date">February 26 – March 2, 2024</span>
+          <h3>Workshop on Multi-scale Analysis and Conference on Differential Equations</h3>
+          <p>Indian Institute of Technology Ropar</p>
+        </article>
+
+        <article class="event">
+          <span class="date">December 4–23, 2023</span>
+          <h3>Advanced Instruction School on Elliptic and Parabolic PDEs</h3>
+          <p>Indian Institute of Science, Bengaluru</p>
+        </article>
+
+        <article class="event">
+          <span class="date">October 2–7, 2023</span>
+          <h3>Workshop on Advances in Differential Equations</h3>
+          <p>Thapar Institute of Engineering and Technology</p>
+        </article>
+
+        <article class="event">
+          <span class="date">June 26 – July 8, 2023</span>
+          <h3>NCM School on ODE and Dynamical Systems</h3>
+          <p>Indian Institute of Technology Mandi</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2>Contact</h2>
+      </div>
+
+      <div class="contact-panel">
+        <h3>Parveen Kumar</h3>
+        <p>Department of Mathematics</p>
+        <p>Indian Institute of Technology Ropar</p>
+        <p>Rupnagar, Punjab – 140001, India</p>
+
+        <p>
+          Email:
+          <a href="mailto:pswamifca@gmail.com">pswamifca@gmail.com</a>
+        </p>
+
+        <div class="social-links">
+          <a href="https://scholar.google.com/citations?user=jWAKMYUAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="https://orcid.org/0009-0004-3400-0292" target="_blank" rel="noopener">ORCID</a>
+          <a href="https://www.researchgate.net/profile/Parveen-Kumar-108" target="_blank" rel="noopener">ResearchGate</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="current-year"></span> Parveen Kumar. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
