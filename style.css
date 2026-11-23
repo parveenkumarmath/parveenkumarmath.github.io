@@ -987,7 +987,7 @@ img {
   }
 
   .brand {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .hero {
@@ -999,11 +999,11 @@ img {
   }
 
   .hero-role {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .hero-intro {
-    font-size: 13px;
+    font-size: 23px;
   }
 
   .hero-actions {
@@ -1053,17 +1053,17 @@ img {
 
   .publication {
     grid-template-columns: 1fr;
-    gap: 12px;
+    gap: 15px;
   }
 
   .publication-meta {
     flex-direction: row;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
   }
 
   .publication h3 {
-    font-size: 15px;
+    font-size: 25px;
   }
 
   .timeline-item,
