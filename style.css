@@ -1073,12 +1073,12 @@ img {
   }
 
   .contact-panel {
-    padding: 25px 20px;
+    padding: 35px 20px;
   }
 
   .contact-details {
     grid-template-columns: 1fr;
-    gap: 18px;
+    gap: 28px;
   }
 
   .contact-profiles {
@@ -1087,6 +1087,6 @@ img {
 
   .footer-inner {
     flex-direction: column;
-    gap: 8px;
+    gap: 18px;
   }
 }
